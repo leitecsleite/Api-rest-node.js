@@ -14,5 +14,9 @@ Knex -
 ```
  npm install knex sqlite3
 
+ npm run knex -- migrate:make create-documents
+
 ```
+
+
 
