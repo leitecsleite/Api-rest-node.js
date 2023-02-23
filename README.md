@@ -29,5 +29,10 @@ Env -
 npm i dotenv
 
 ```
+zod - 
+
+```
+npm i zod
+```
 
 
