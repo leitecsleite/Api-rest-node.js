@@ -4,9 +4,10 @@ import { Knex } from '../src/database/database'
 const app = fastify()
 
 app.get('/hello', async () => {
-  const test = await Knex('sqlite_schema').select('*')
+  const table = await Knex('sqlite_schema').select('*')
+  console.log(table)
 
-  return test
+  return table
 })
 app
   .listen({
