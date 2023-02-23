@@ -23,6 +23,11 @@ Knex -
  npm run knex -- migrate:make add-session-id-to-transactions
 
 ```
+Env - 
 
+```
+npm i dotenv
+
+```
 
 
