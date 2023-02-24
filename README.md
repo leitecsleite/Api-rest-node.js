@@ -38,14 +38,14 @@ npm i zod
 ## Rule.
 
  RF
-- [ ] The user must be able to create a new transaction.
+- [x] The user must be able to create a new transaction.
 - [ ] The user must be able to get his account summary.
-- [ ] The user must be able to list all transactions that have already taken place.
-- [ ] The user must be able to view a single transaction.
+- [x] The user must be able to list all transactions that have already taken place.
+- [x] The user must be able to view a single transaction.
 
 RN 
 
-- [ ] The transaction can be of the credit type that will add to the total amount, or debit will subtract; 
+- [x] The transaction can be of the credit type that will add to the total amount, or debit will subtract; 
 - [ ] It must be possible to identify the user among the requests;
 - [ ] The user can only view transactions which he created;
 
